@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book appointment with Dr. Elijah Trillionz</title>
+  </head>
+  <body>
+    <a href="widget.html">Try this out with Spurwing Open-Source Widget</a>
+    <div>
+      <h3>Appointment Types</h3>
+      <select name="types" id="types">
+        <option value="">Select Type</option>
+      </select>
+    </div>
+    <div>
+      <h3>Select Date and Time</h3>
+      <select name="date" id="date">
+        <option value="">Select Date</option>
+      </select>
+      <select name="time" id="time">
+        <option value="">Select Time</option>
+      </select>
+    </div>
+    <div id="complete">
+      <h3>Your Information</h3>
+      <input type="text" placeholder="Full name" id="fName" />
+      <input type="email" placeholder="Enter email" id="email" />
+      <button id="submit" type="submit">Book Appointment</button>
+    </div>
+
+    <p id="error" style="color: red"></p>
+    <script src="api.js" type="module"></script>
+  </body>
+</html>
